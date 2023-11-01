@@ -1,0 +1,27 @@
+{
+    "name": "mukellef/timeline",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mukellef\\Timeline\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "omerfaruk",
+            "email": "yzcmrfrk@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sacred96\\Timeline\\TimelineServiceProvider"
+            ],
+            "aliases": {
+                "Timeline": "Sacred96\\Timeline\\Facades\\TimelineFacade"
+            }
+        }
+    }
+}
