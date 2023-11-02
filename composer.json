@@ -1,11 +1,13 @@
 {
     "name": "mukellef/timeline",
+    "description": "Timeline History",
     "type": "library",
     "autoload": {
         "psr-4": {
             "Mukellef\\Timeline\\": "src/"
         }
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "omerfaruk",
