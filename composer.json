@@ -8,12 +8,6 @@
         }
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "omerfaruk",
-            "email": "yzcmrfrk@gmail.com"
-        }
-    ],
     "minimum-stability": "stable",
     "require": {},
     "extra": {
