@@ -1,6 +1,6 @@
 <?php
 
-namespace Sacred96\Timeline\Models;
+namespace Mukellef\Timeline\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Sacred96\Timeline\Traits;
+namespace Mukellef\Timeline\Traits;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Sacred96\Timeline\Models\History;
-use Sacred96\Timeline\Models\Participation;
+use Mukellef\Timeline\Models\History;
+use Mukellef\Timeline\Models\Participation;
 
 /**
  * Trait Eventable
  *
- * @package Sacred96\Timeline\Traits
+ * @package Mukellef\Timeline\Traits
  *
  * @mixin \Illuminate\Database\Eloquent\Model
  */

@@ -1,15 +1,15 @@
 <?php
 
-namespace Sacred96\Timeline\Services;
+namespace Mukellef\Timeline\Services;
 
 use Illuminate\Database\Eloquent\Model;
-use Sacred96\Timeline\Models\Event;
-use Sacred96\Timeline\Models\History;
+use Mukellef\Timeline\Models\Event;
+use Mukellef\Timeline\Models\History;
 
 class EventService
 {
     /**
-     * @var \Sacred96\Timeline\Models\Event
+     * @var \Mukellef\Timeline\Models\Event
      */
     private $event;
 
@@ -24,7 +24,7 @@ class EventService
     private $comment;
 
     /**
-     * @var \Sacred96\Timeline\Models\History
+     * @var \Mukellef\Timeline\Models\History
      */
     private $history;
     /**

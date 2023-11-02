@@ -1,9 +1,9 @@
 <?php
 
-namespace Sacred96\Timeline\Models;
+namespace Mukellef\Timeline\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Sacred96\Timeline\Traits\Eventable;
+use Mukellef\Timeline\Traits\Eventable;
 
 class History extends Model
 {
@@ -101,7 +101,7 @@ class History extends Model
 
     /**
      * @param  \Illuminate\Database\Eloquent\Model  $initiator
-     * @return \Sacred96\Timeline\Models\Participation|object|null
+     * @return \Mukellef\Timeline\Models\Participation|object|null
      */
     public function participantFromEventInitiator(Model $initiator)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sacred96\Timeline;
+namespace Mukellef\Timeline;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -43,7 +43,7 @@ class TimelineServiceProvider extends ServiceProvider
     private function registerTimeline()
     {
         $this->app->bind('timeline', function () {
-            return $this->app->make(\Sacred96\Timeline\Timeline::class);
+            return $this->app->make(\Mukellef\Timeline\Timeline::class);
         });
     }
 

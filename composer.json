@@ -17,10 +17,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sacred96\\Timeline\\TimelineServiceProvider"
+                "Mukellef\\Timeline\\TimelineServiceProvider"
             ],
             "aliases": {
-                "Timeline": "Sacred96\\Timeline\\Facades\\TimelineFacade"
+                "Timeline": "Mukellef\\Timeline\\Facades\\TimelineFacade"
             }
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Sacred96\Timeline\Traits;
+namespace Mukellef\Timeline\Traits;
 
-use Sacred96\Timeline\Models\History;
+use Mukellef\Timeline\Models\History;
 
 /**
  * A timeline can have an event chain initiator.
@@ -18,7 +18,7 @@ use Sacred96\Timeline\Models\History;
  * to receive an object with their timeline.
  *
  * @package App\Services\Timeline\Traits
- * @property-read \Sacred96\Timeline\Models\History $timeline
+ * @property-read \Mukellef\Timeline\Models\History $timeline
  */
 trait TimelineInitiator
 {

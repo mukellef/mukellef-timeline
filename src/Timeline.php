@@ -1,22 +1,22 @@
 <?php
 
-namespace Sacred96\Timeline;
+namespace Mukellef\Timeline;
 
-use Sacred96\Timeline\Models\Event;
-use Sacred96\Timeline\Models\History;
-use Sacred96\Timeline\Services\EventService;
-use Sacred96\Timeline\Services\HistoryService;
-use Sacred96\Timeline\Traits\Eventable;
+use Mukellef\Timeline\Models\Event;
+use Mukellef\Timeline\Models\History;
+use Mukellef\Timeline\Services\EventService;
+use Mukellef\Timeline\Services\HistoryService;
+use Mukellef\Timeline\Traits\Eventable;
 
 class Timeline
 {
     /**
-     * @var \Sacred96\Timeline\Services\EventService
+     * @var \Mukellef\Timeline\Services\EventService
      */
     private $eventService;
 
     /**
-     * @var \Sacred96\Timeline\Services\HistoryService
+     * @var \Mukellef\Timeline\Services\HistoryService
      */
     private $historyService;
 

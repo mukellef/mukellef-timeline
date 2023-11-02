@@ -1,15 +1,15 @@
 <?php
 
-namespace Sacred96\Timeline\Services;
+namespace Mukellef\Timeline\Services;
 
 use Illuminate\Database\Eloquent\Collection;
-use Sacred96\Timeline\Models\History;
-use Sacred96\Timeline\Traits\Eventable;
+use Mukellef\Timeline\Models\History;
+use Mukellef\Timeline\Traits\Eventable;
 
 class HistoryService
 {
     /**
-     * @var \Sacred96\Timeline\Models\History
+     * @var \Mukellef\Timeline\Models\History
      */
     private $history;
 
@@ -84,7 +84,7 @@ class HistoryService
 
     /**
      * @param  Eventable[]  $participants
-     * @return \Sacred96\Timeline\Models\History
+     * @return \Mukellef\Timeline\Models\History
      */
     public function removeParticipants(array $participants): History
     {
